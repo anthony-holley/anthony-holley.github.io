@@ -1,0 +1,21 @@
+.navs{ 
+    color: blue; 
+    background: white;
+} 
+
+h4{ 
+    text-align: center;
+} 
+
+.lead{
+    color: blue; 
+}
+
+.carousel-item{ 
+    width: 600px; 
+    Height: 200px;
+}
+
+.modal-content{ 
+    background: pink;
+}
