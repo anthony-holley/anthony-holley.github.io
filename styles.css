@@ -1,21 +1,34 @@
-.navs{ 
-    color: blue; 
-    background: white;
-} 
 
 h4{ 
     text-align: center;
 } 
 
 .lead{
-    color: blue; 
+    color: white; 
+} 
+
+.display-4{ 
+    color: white;
 }
 
-.carousel-item{ 
-    width: 600px; 
-    Height: 200px;
-}
+.navbar-nav.navbar-center {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    } 
 
-.modal-content{ 
-    background: pink;
-}
+    .jumbotron {
+        background-image: url("https://images.unsplash.com/photo-1437419764061-2473afe69fc2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1790&q=80");
+        background-size: cover; 
+        padding-top: 20%;
+      padding-bottom: 20%; 
+      text-align: center;
+      }  
+
+      .rounded-circle{
+          border-radius: 20px; 
+          width: 300px; 
+          height: 300px; 
+          justify-content: center;
+      }
