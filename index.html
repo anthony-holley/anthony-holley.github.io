@@ -10,11 +10,45 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     
-  <link rel="stylesheet" href="styles.css" /> 
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="styles.css" />   
+  <style>
+  @font-face {
+    font-family: 'Airbnb Cereal App Book';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Airbnb Cereal App Book'), url('AirbnbCerealBook.woff') format('woff');
+}
+@font-face {
+    font-family: 'Airbnb Cereal App Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Airbnb Cereal App Light'), url('AirbnbCerealLight.woff') format('woff');
+}
+@font-face {
+    font-family: 'Airbnb Cereal App Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Airbnb Cereal App Medium'), url('AirbnbCerealMedium.woff') format('woff');
+}
+@font-face {
+    font-family: 'Airbnb Cereal App Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Airbnb Cereal App Bold'), url('AirbnbCerealBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Airbnb Cereal App Extra Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Airbnb Cereal App Extra Bold'), url('AirbnbCerealExtraBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Airbnb Cereal App Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Airbnb Cereal App Black'), url('AirbnbCerealBlack.woff') format('woff');
+} 
+</style>
   <title>Anthony Says Hey!</title>
 </head>
 
@@ -35,65 +69,63 @@
   </nav> 
 
   <div class="jumbotron"> 
-   <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="rounded-circle" alt="Alps"> 
+   <img src="MyLilius.png" class="rounded-circle" alt="Alps"> 
     <h1 class="display-4 " style="text-align: center">My Name Is Anthony Holley!</h1>
     <p class="lead" style="text-align: center">Growth Marketer/ Co-Founder / Risk Taker</p> 
-    
-  <div class="container">
-    <form class="ant-contact" action="https://formspree.io/xqklejdb" method="POST">
-      <input type="text" name="name" placeholder="Full Name">
-      <input type="text" name="email" placeholder="Email Address"> 
-      <textarea type="text" name="content" rows="10" placeholder="Message"></textarea>
-      <input type="hidden" name="_next" value="https://anthony-holley.github.io ">
-      <input type="hidden" name="_subject" value="New Contact Form Submission">
-      <input type="text" name="_gotcha" style="display:none">
-      <input type="submit" value="Submit">
-  </form>
-  
-  <style>
-  form.ant-contact input[type="text"], form.ant-contact textarea[type="text"] {
-      width: 100%;
-      vertical-align: middle;
-      margin-top: 0.25em;
-      margin-bottom: 0.5em;
-      padding: 0.75em;
-      font-family: monospace, sans-serif;
-      font-weight: lighter;
-      border-style: solid;
-      border-color: #444;
-      outline-color: #2e83e6;
-      border-width: 1px;
-      border-radius: 3px;
-      transition: box-shadow .2s ease;
-  }
-  
-  form.ant-contact input[type="submit"] {
-      outline: none;
-      color: white;
-      background-color: #2e83e6;
-      border-radius: 3px;
-      padding: 0.5em;
-      margin: 0.25em 0 0 0;
-      border: 1px solid transparent;
-      height: auto;
-  }
-  </style>
+  </div> 
+  <div class="sidebar"> 
+  <div class="sidebar2"> 
+
+    <div class="container"> 
+ 
+<div class="jumbotron1 jumbotron-fluid"> 
+    <h1 class="display-5">My Journey</h1>
+    <p class="leader">Since experience college I have spent my time learning as much as possible through expereinces through both failures and sucesses. My passion to learn has been outlined below:</p> 
+    <img src="journey.jpg" alt="Girl in a jacket" style="width:20vh;width:20vw;">
+
+</div>     
+<div class="form"> 
+  <h1 class="display-5">Contact</h1> 
+<form class="ant-contact" action="https://formspree.io/xqklejdb" method="POST">
+  <input type="text" name="name" placeholder="Full Name">
+  <input type="text" name="email" placeholder="Email Address"> 
+  <textarea type="text" name="content" rows="10" placeholder="Message"></textarea>
+  <input type="hidden" name="_next" value="https://anthony-holley.github.io ">
+  <input type="hidden" name="_subject" value="New Contact Form Submission">
+  <input type="text" name="_gotcha" style="display:none"> 
+  <button type="button" class="btn btn-primary" value="Submit">Primary</button>
+</form>  
+<h1 class="leader"></h1>
+
+<style>
+form.ant-contact input[type="text"], form.ant-contact textarea[type="text"] {
+  width: 100%;
+  vertical-align: middle;
+  margin-top: 0.25em;
+  margin-bottom: 0.5em;
+  padding: 0.75em;
+  font-family: monospace, sans-serif;
+  font-weight: lighter;
+  border-style: solid;
+  border-color: #444;
+  outline-color: #2e83e6;
+  border-width: 1px;
+  border-radius: 3px;
+  transition: box-shadow .2s ease; 
+}
+
+form.ant-contact input[type="submit"] {
+  outline: none;
+  color: white;
+  background-color: #2e83e6;
+  border-radius: 3px;
+  padding: 0.5em;
+  margin: 0.25em 0 0 0;
+  border: 1px solid transparent;
+  height: auto;
+}
+</style> 
 </div>
-</div>  
-<div class="jumbotron1 jumbotron-fluid">
-  <div class="container about">
-    <h1 class="display-4">About</h1>
-    <p class="leader">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-  </div>
-</div>   
-
-<div class="jumbotron2 jumbotron-fluid">
-  <div class="container about">
-    <h1 class="display-4">Skills</h1>
-    <p class="leader"></p>
-  </div>
-</div>  
-
 
   
 
@@ -109,6 +141,9 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
-</body>
+  </div>  
+</div> 
+</div>
+  </body>
 
 </html>
